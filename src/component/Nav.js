@@ -7,7 +7,10 @@ function NavB() {
     <Navbar>
       <Container className="navbar navbar-inverse navbar-fixed-top navbar-fixed-bottom">
         <Navbar.Brand href="/">
-          <img src="./Artba-logo.png" width={300} />
+          <img
+            src="https://economics.artba.org/img/artba-logo.png"
+            width={300}
+          />
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">

@@ -39,12 +39,12 @@ export default function Qr() {
             <Col xl={8} sm={2} lg={2} md={2}>
               <img
                 style={{ marginTop: "30px" }}
-                src="./Artba-logo.png"
+                src="https://economics.artba.org/img/artba-logo.png"
                 width="60%"
                 alt="Artba"
               />
               <h5 style={{ fontWeight: "bold", marginTop: "30px" }}>{name}</h5>{" "}
-              <p style={{  marginLeft: "30px" }}>{companyName}</p>
+              <p style={{ marginLeft: "30px" }}>{companyName}</p>
             </Col>
             <Col xl={4} sm={3} lg={1} md={1}>
               {qrcode}
