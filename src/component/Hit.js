@@ -32,7 +32,12 @@ const { setName, setUrl, setCompanyName } = useContext(NameContext);
         <Button
           variant="secondary"
           onClick={() => {
-            setUrl(window.location.href + "" + hit.FirstName);
+            let domain = new URL(window.location.href);
+            console.log('====================================');
+            console.log();
+            console.log('====================================');
+
+            setUrl(domain.origin + "/" + hit.FirstName);
             setCompanyName(hit.CompanyName);
             setName(hit.FullName);
           }}
