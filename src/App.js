@@ -91,7 +91,7 @@ for (var i = 0; i < contact.length; i++) {
       CompanyName,
     }) => (
       <Route
-        path={FirstName}
+        path={`"qr/"+${FirstName}`}
         key={AttendeeUniqueID}
         element={
           <Vcard
